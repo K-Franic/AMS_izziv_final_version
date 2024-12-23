@@ -117,7 +117,7 @@ The tuning of hyperparameters such as loss function weights, epoch numbers etc. 
 ## Test Commands
 Run the docker image with the same command as for training and call the function inside the container:
 ```bash
-python ViT-V-Net/test.py
+python ViT-V-Net/test.py 
 ```
 The script produces deformation fields for the evaluation script based on the trained model. The trained model is already available in the directory "/ViT-V-Net/Pretrained_models/Vitvnet500metric_0.486.pth". To use a different model, change the `model_path ` directory in the *main* function of the `test.py` script.
 
